@@ -4,7 +4,7 @@ maded from scratch RSA encryption for my graduation project
 ## information:
 All jar files were packed in .jar with openjdk17.
 
-![https://github.com/Dixxe/RSA-encryption/blob/main/show.gif]
+![preview](https://github.com/Dixxe/RSA-encryption/blob/main/show.gif)
 
 ## Todo list:
 - Docs
