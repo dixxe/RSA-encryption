@@ -6,21 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class DecoderInterface {
-    public static void Main(String[] args)
-    {
-        // тестовой код, удали потом. Закоментируй настоящий.
-        BigInteger[] keys = RSA.genKeys(100000);
-        String m = "Dixxe loves cryptography";
-        for (byte b : m.getBytes())
-        {
-            BigInteger s = RSA.decrypt(BigInteger.valueOf(b), keys[2], keys[1]);
-            System.out.print(s + " ");
-        }
-        
-        System.out.println(String.format("\nОткрытые ключи RSA: e %1$s; n %2$s", keys[0], keys[2]));
-    }
-
+public class DecoderInterface 
+{
+    
     public static void main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
